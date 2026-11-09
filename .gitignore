@@ -1,0 +1,41 @@
+# Maven / Quarkus build output
+/target/
+/.quarkus/
+
+# IDE and editor files
+/.idea/
+*.iml
+/.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Local H2 database
+gamelibrary.mv.db
+gamelibrary.trace.db
+gamelibrary.lock.db
+gamelibrary*.db
+
+# Local secrets and environment-specific overrides
+.env
+.env.*
+!.env.example
+application-local.properties
+privateKey.pem
+*.keystore
+*.p12
+
+# Java crash reports
+hs_err_pid*
+replay_pid*
